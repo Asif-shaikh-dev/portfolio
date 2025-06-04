@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YourName Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1 class="logo"><span style="color: rgb(235, 29, 29);">S</span>ameer </h1>
+      <nav>
+        <a href="#home" class="nav-link">Home2</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" style="" class="section home">
+    <div  class="container home-content">
+      <div class="home-text">
+        <h2>Hi, I'm <span style="color: rgb(235, 29, 29);">Sameer </span>Pathan, </h2>
+        <h2>A web Developer From India</h2>
+      </div>
+      
+    </div>
+  </section>
+
+  <main >
+      <!-- About Section -->
+  <section id="about" class="section about">
+   
+   
+    <div class="container about-content">
+      <img src="./fa55e0e5-e097-4758-a212-12f00272536a.jfif" alt="About" class="about-image" />
+      <div class="about-tabs">
+        <div style=" background: #1c1c1c; border-radius: 2px; margin-bottom: 1rem;" class=" ">
+            <h2 style="font-size: xx-large; padding: 0.5rem;">About Me</h2>
+           <p style="padding: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam ac erat vel libero vehicula tincidunt. Integer nec odio nec nulla facilisis tincidunt.    </p>
+           </div>
+        <div class="tab-buttons">
+          <button class="active" onclick="showTab('skills')">Skills</button>
+          <button onclick="showTab('experience')">Experience</button>
+          <button onclick="showTab('education')">Education</button>
+        </div>
+        <div id="tab-content" class="tab-content">
+            <ul class="custom-bullets">
+                <li>Proficient in HTML, CSS, and JavaScript (ES6+)</li>
+                <li>Experienced in building RESTful APIs using Node.js and Express</li>
+                <li>Hands-on with React.js for building dynamic frontends</li>
+                <li>Version control with Git and GitHub</li>
+                <li>Familiar with MongoDB and MySQL databases</li>
+ 
+              </ul>
+          <!-- Dynamic content -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2>My Services</h2>
+      <div class="service-boxes">
+        <div class="box">
+          <h3>Web Development</h3>
+          <p>Modern responsive websites using HTML, CSS, JS, Node.js.</p>
+        </div>
+        <div class="box">
+          <h3>UI/UX Design</h3>
+          <p>Clean and user-friendly designs with a focus on user experience.</p>
+        </div>
+        <div class="box">
+          <h3>Backend APIs</h3>
+          <p>RESTful APIs with Node and Express for scalable backend solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: you@example.com</p>
+      <p>Phone: +91-XXXXXXXXXX</p>
+    </div>
+  </section>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
